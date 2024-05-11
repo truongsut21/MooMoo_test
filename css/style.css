@@ -58,19 +58,44 @@
     background-image: url('../images/bg2.jpg');
     color: #fff;
     padding: 8rem 5rem;
+    background-size: contain;
+}
+
+#content2 h1{
+    width: 70%;
 }
 
 @media (max-width: 1170px) {
     #content2 {
         padding: 0;
     }
-
+    #content2 h1{
+        width: 100%;
+    }
     #content3 {
         padding: 0 !important;
     }
 
+    #content4 {
+        padding: 0 !important;
+        padding-top: 2rem;
+    }
+
+    #content4 h1 {
+        font-size: 3rem !important;
+    }
+
+    #content4 h2 {
+        font-size: 2rem !important;
+    }
+
     #content4_2 {
         display: none;
+    }
+    #content3 h1 {
+        width: 100% !important;
+        font-size: 2rem !important;
+        margin-top: 2rem;
     }
 
 }
@@ -87,6 +112,10 @@
 
 #content3 img {
     border-radius: 30px;
+}
+
+#content3 h1 {
+    width: 50%;
 }
 
 #content3 h4 {
