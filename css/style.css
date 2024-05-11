@@ -61,44 +61,11 @@
     background-size: contain;
 }
 
-#content2 h1{
+#content2 h1 {
     width: 70%;
 }
 
-@media (max-width: 1170px) {
-    #content2 {
-        padding: 0;
-    }
-    #content2 h1{
-        width: 100%;
-    }
-    #content3 {
-        padding: 0 !important;
-    }
 
-    #content4 {
-        padding: 0 !important;
-        padding-top: 2rem;
-    }
-
-    #content4 h1 {
-        font-size: 3rem !important;
-    }
-
-    #content4 h2 {
-        font-size: 2rem !important;
-    }
-
-    #content4_2 {
-        display: none;
-    }
-    #content3 h1 {
-        width: 100% !important;
-        font-size: 2rem !important;
-        margin-top: 2rem;
-    }
-
-}
 
 #content3 {
     background: #E9E8E2;
@@ -168,4 +135,105 @@
 #content4 img {
     border-radius: 30px;
     object-fit: cover;
+}
+
+#content5 {
+    background-image: url('../images/bg5.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content5 form {
+    width: 100%;
+    padding: 5rem 6rem 5rem 2rem;
+}
+
+#content5 .form-contact {
+    max-width: 80%;
+    margin: auto;
+    background-color: #14402f;
+    border-radius: 3rem;
+    margin-top: 12%;
+}
+
+#content5 .content5_1 {
+    padding: 5rem;
+}
+
+
+
+#checkbox {
+    border-radius: 2rem !important;
+    width: 3rem !important;
+    margin-right: 1rem ;
+    height: 3rem;
+}
+
+.input-text {
+    width: 100%;
+    height: 2rem;
+    padding: 1.5rem 1.5rem;
+    margin: 1rem 0;
+}
+
+#content5 button {
+    width: 10rem;
+    border-radius: 2rem;
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+}
+
+@media (max-width: 1170px) {
+    #content2 {
+        padding: 0;
+    }
+
+    #content2 h1 {
+        width: 100%;
+    }
+
+    #content3 {
+        padding: 0 !important;
+    }
+
+    #content4 {
+        padding: 0 !important;
+        padding-top: 2rem;
+    }
+
+    #content4 h1 {
+        font-size: 3rem !important;
+    }
+
+    #content4 h2 {
+        font-size: 2rem !important;
+    }
+
+    #content4_2 {
+        display: none;
+    }
+
+    #content3 h1 {
+        width: 100% !important;
+        font-size: 2rem !important;
+        margin-top: 2rem;
+    }
+
+    #content5 .form-contact {
+
+
+        background: none;
+        border-radius: 3rem;
+
+    }
+
+    #content5 .content5_1 {
+        padding: 0;
+    }
+
+    #content5 form {
+        padding: 0;
+    }
+
 }
