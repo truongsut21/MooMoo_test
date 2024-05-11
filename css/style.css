@@ -235,5 +235,8 @@
     #content5 form {
         padding: 0;
     }
+    #logoMoney{
+        display: none;
+    }
 
 }
