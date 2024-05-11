@@ -17,3 +17,29 @@
         display: block;
     }
 }
+
+#content2 {
+    background-image: url('../images/bg2.jpg');
+    color: #fff;
+    padding: 8rem 5rem;
+}
+
+@media (max-width: 1170px) {
+    #content2 {
+        padding: 0;
+    }
+
+}
+
+#content3 {
+    background: #E9E8E2;
+    padding: 10rem 5rem;
+}
+#content3 .card{
+    border-radius: 30px;
+    padding: 2rem;
+}
+#content3 img:first {
+    border-radius: 30px;
+}
+
